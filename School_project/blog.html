@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Schoo Website Design</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class = "sub-header">
+            <nav>
+                <div class = "nav-links" id = "navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick = "hideMenu()"></i>
+
+                    <ul>
+                        <li><a href = "index.html">HOME</a></li>
+                        <li><a href = "about.html">ABOUT</a></li>
+                        <li><a href = "course.html">COURSE</a></li>
+                        <li><a href = "blog.html">BLOG</a></li>
+                        <li><a href = "contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick = "showMenu()"></i>
+            </nav>
+
+            <h1>Our Certificates & Online Programs</h1>
+        </section>
+
+        <!-- blog page content -->
+
+        <section class="blog-content">
+            <div class="row">
+                <div class = "blog-left">
+                    <img src = "images/graduation.jpeg">
+                    <h2>Our Certificates & Online Programs For 2023</h2>
+                    <p>
+                        Our school provides a diverse array of online certificates and programs, offering flexible learning opportunities for students at every stage of their education. Designed to meet the demands of today’s dynamic world, these programs enable students to acquire valuable skills and knowledge from the convenience of their homes.</p>
+                    <br>
+                    <p>Developed by our dedicated faculty, each online certificate program ensures a high-quality education that adheres to industry standards. The courses are interactive and engaging, featuring multimedia content, virtual discussions, and practical projects.</p>
+                    <br>
+                    <p>Moreover, our online programs include extensive support services such as academic advising, technical assistance, and career counseling. With a user-friendly online platform and a steadfast commitment to student success, we simplify the process of achieving your educational goals. Join our online community and progress in your academic journey with our flexible and accessible online certificates and programs.</p>
+                    <br>
+                    <p>This innovative learning approach keeps students motivated and connected, even while studying remotely.</p>
+
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-from">
+                            <input type = "text" placeholder="Enter your name">
+                            <input type = "email" placeholder="Enter your email">
+                            <textarea rows = "5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class = "blog-right">
+                    <h3>Name of the certificates</h3>
+                    <div>
+                        <span>Project Management Certificate</span>
+                        <!-- <span>21</span> -->
+                    </div>
+                    <div>
+                        <span>Environmental Science Certificate
+                        </span>
+                        <!-- <span>28</span> -->
+                    </div>
+
+                    <div>
+                        <span>Creative Writing Certificate</span>
+                        <!-- <span>15</span> -->
+                    </div>
+                    <div>
+                        <span>Human Resources Management Certificate</span>
+                        <!-- <span>25</span> -->
+                    </div>
+                    <div>
+                        <span>Health and Wellness Certificate</span>
+                        <!-- <span>30</span> -->
+                    </div>
+
+                </div>
+            </div>
+
+
+           
+        </section>
+
+ 
+
+   
+    
+   <!-- footer -->
+
+   <section class="footer">
+    <h4>About Us</h4>
+    <p> Explore our rich history, values, and dedication to cultivating a community where innovation, diversity, and academic excellence thrive.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+   </section>
+
+   
+   <!-- JavaScript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+    </body> 
+</html>
